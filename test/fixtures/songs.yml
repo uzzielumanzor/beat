@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  petition: MyString
+  title: MyString
+  artist: MyString
+  album: MyString
+  year: MyString
+  image: MyString
+  length: MyString
+  number: MyString
+
+two:
+  petition: MyString
+  title: MyString
+  artist: MyString
+  album: MyString
+  year: MyString
+  image: MyString
+  length: MyString
+  number: MyString
