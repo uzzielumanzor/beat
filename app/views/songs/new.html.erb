@@ -1,1 +1,27 @@
-maje agarra las papadas de musicbrainz
+<%= form_for @song do |f| %>
+  <% if @song.errors.any? %>
+      <h2>Invalid Petition, the errors were:</h2>
+      <ul>
+          <% @song.errors.full_messages.each do |msg| %>
+            <li><%= msg %></li>
+          <% end %>
+      </ul>
+  <% end %>
+
+  <p>
+
+  <% artist_includes = Webservice::ArtistIncludes.new(
+  :aliases      => true,
+  :releases     => ['Album', 'Official'],
+  :artist_rels  => true,
+  :release_rels => true,
+  :track_rels   => true,
+  :label_rels   => true,
+  :url_rels     => true) %>
+
+<% query  = Webservice::Query.new %>
+<% id     = 'c0b2500e-0cef-4130-869d-732b23ed9df5' %>
+<% artist = query.get_artist_by_id(id, artist_includes) %>
+  </p>
+  <%= artist.name%>
+<% end %>
