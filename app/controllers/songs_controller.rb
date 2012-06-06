@@ -1,3 +1,4 @@
+include MusicBrainz
 class SongsController < ApplicationController
   def index
     @song = Song.all
@@ -12,7 +13,7 @@ class SongsController < ApplicationController
   end
 
   def create
-    @song = Song.create(params[:song])  
+    @song = Song.create(params[:song])
   end
 
   def edit

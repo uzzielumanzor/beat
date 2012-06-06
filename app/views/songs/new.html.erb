@@ -1,6 +1,8 @@
+<h1>Search a song</h1>
+
 <%= form_for @song do |f| %>
   <% if @song.errors.any? %>
-      <h2>Invalid Petition, the errors were:</h2>
+      <h2>Invalid petition, the errors were:</h2>
       <ul>
           <% @song.errors.full_messages.each do |msg| %>
             <li><%= msg %></li>
@@ -9,7 +11,21 @@
   <% end %>
 
   <p>
+    
+    <%= f.text_field :petition%>
+    Find by:
+    <%=f.select :petition, ['Song','Artist','Album'] %>
+    <%= f.submit 'search' %>
+    <%= f.label :petition %>
+  </p>
+  
 
+    
+
+<% end %>
+
+
+  <!--<p>
   <% artist_includes = Webservice::ArtistIncludes.new(
   :aliases      => true,
   :releases     => ['Album', 'Official'],
@@ -23,5 +39,4 @@
 <% id     = 'c0b2500e-0cef-4130-869d-732b23ed9df5' %>
 <% artist = query.get_artist_by_id(id, artist_includes) %>
   </p>
-  <%= artist.name%>
-<% end %>
+  <%= artist.name%> -->

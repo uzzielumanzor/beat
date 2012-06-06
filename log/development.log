@@ -1270,3 +1270,2229 @@ ActionView::Template::Error (uninitialized constant ActionView::CompiledTemplate
   Rendered /home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.6ms)
   Rendered /home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
   Rendered /home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-05 19:44:09 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (61.9ms)
+Completed 200 OK in 472ms (Views: 471.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/songs.js?body=1" for 127.0.0.1 at 2012-06-05 19:44:12 -0600
+Served asset /songs.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-05 19:44:12 -0600
+Served asset /application.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-06-05 19:44:12 -0600
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-05 19:44:12 -0600
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2012-06-05 19:44:12 -0600
+Served asset /songs.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-05 19:44:12 -0600
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-05 19:44:12 -0600
+Served asset /jquery.js - 304 Not Modified (28ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-05 19:44:13 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 19:44:13 -0600
+Served asset /application.css - 304 Not Modified (40ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-06-05 19:44:13 -0600
+Served asset /home.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-05 19:44:13 -0600
+Served asset /users.js - 304 Not Modified (3ms)
+
+
+Started GET "/songs/new" for 127.0.0.1 at 2012-06-05 19:44:26 -0600
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (15185.0ms)
+Completed 200 OK in 15365ms (Views: 15196.4ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 19:44:41 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-06-05 19:44:41 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-05 19:44:41 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-05 19:44:41 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-05 19:44:41 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-06-05 19:44:41 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2012-06-05 19:44:41 -0600
+Served asset /songs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-05 19:44:41 -0600
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/songs.js?body=1" for 127.0.0.1 at 2012-06-05 19:44:41 -0600
+Served asset /songs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-05 19:44:41 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-05 19:44:41 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/songs/new" for 127.0.0.1 at 2012-06-05 19:50:05 -0600
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (16033.9ms)
+Completed 200 OK in 16050ms (Views: 16049.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 19:50:21 -0600
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2012-06-05 19:50:21 -0600
+Served asset /songs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-06-05 19:50:21 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-05 19:50:21 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-05 19:50:21 -0600
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-05 19:50:21 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-05 19:50:21 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/songs.js?body=1" for 127.0.0.1 at 2012-06-05 19:50:21 -0600
+Served asset /songs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-06-05 19:50:21 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-05 19:50:21 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-05 19:50:21 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/songs/new" for 127.0.0.1 at 2012-06-06 07:17:25 -0600
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (29168.5ms)
+Completed 200 OK in 29661ms (Views: 29570.0ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-06 07:17:56 -0600
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-06 07:17:56 -0600
+Served asset /application.js - 304 Not Modified (95ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-06 07:17:56 -0600
+Served asset /users.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-06-06 07:17:56 -0600
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-06-06 07:17:56 -0600
+Served asset /home.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-06 07:17:56 -0600
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-06 07:17:56 -0600
+Served asset /jquery.js - 304 Not Modified (32ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-06 07:17:56 -0600
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-06 07:17:56 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2012-06-06 07:17:56 -0600
+Served asset /songs.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/songs.js?body=1" for 127.0.0.1 at 2012-06-06 07:17:56 -0600
+Served asset /songs.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-06 07:18:14 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 67ms (Views: 66.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-06 07:18:14 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-06-06 07:18:14 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2012-06-06 07:18:14 -0600
+Served asset /songs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-06 07:18:14 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-06 07:18:14 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-06-06 07:18:14 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-06 07:18:14 -0600
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-06 07:18:14 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-06 07:18:14 -0600
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-06 07:18:14 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/songs.js?body=1" for 127.0.0.1 at 2012-06-06 07:18:14 -0600
+Served asset /songs.js - 304 Not Modified (0ms)
+
+
+Started GET "/songs" for 127.0.0.1 at 2012-06-06 07:18:23 -0600
+Processing by SongsController#index as HTML
+  [1m[36mSong Load (0.2ms)[0m  [1mSELECT "songs".* FROM "songs" [0m
+  Rendered songs/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 83ms (Views: 81.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-06 07:18:23 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-06-06 07:18:23 -0600
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-06 07:18:23 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2012-06-06 07:18:23 -0600
+Served asset /songs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-06 07:18:23 -0600
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-06 07:18:23 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-06 07:18:23 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-06-06 07:18:23 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/songs.js?body=1" for 127.0.0.1 at 2012-06-06 07:18:23 -0600
+Served asset /songs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-06 07:18:23 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-06 07:18:23 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-06 09:47:23 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 817ms (Views: 816.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-06-06 09:47:26 -0600
+Served asset /home.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-06 09:47:26 -0600
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-06 09:47:26 -0600
+Served asset /jquery.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-06 09:47:26 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2012-06-06 09:47:26 -0600
+Served asset /songs.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-06 09:47:26 -0600
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-06-06 09:47:26 -0600
+Served asset /home.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/songs.js?body=1" for 127.0.0.1 at 2012-06-06 09:47:26 -0600
+Served asset /songs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-06 09:47:26 -0600
+Served asset /users.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-06 09:47:27 -0600
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-06 09:47:27 -0600
+Served asset /application.js - 304 Not Modified (41ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-06-06 09:47:29 -0600
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (22.5ms)
+  Rendered users/new.html.erb within layouts/application (47.6ms)
+Completed 200 OK in 172ms (Views: 58.6ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-06 09:47:29 -0600
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-06 09:47:29 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-06-06 09:47:29 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-06 09:47:29 -0600
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-06 09:47:29 -0600
+Served asset /users.css - 304 Not Modified (28ms)
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2012-06-06 09:47:29 -0600
+Served asset /songs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-06 09:47:29 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-06 09:47:29 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/songs.js?body=1" for 127.0.0.1 at 2012-06-06 09:47:29 -0600
+Served asset /songs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-06-06 09:47:29 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-06 09:47:29 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/songs" for 127.0.0.1 at 2012-06-06 09:47:33 -0600
+Processing by SongsController#index as HTML
+  [1m[36mSong Load (0.3ms)[0m  [1mSELECT "songs".* FROM "songs" [0m
+  Rendered songs/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 18ms (Views: 13.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-06 09:47:33 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-06-06 09:47:33 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-06 09:47:33 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2012-06-06 09:47:33 -0600
+Served asset /songs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-06 09:47:33 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-06 09:47:33 -0600
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-06 09:47:33 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-06-06 09:47:33 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/songs.js?body=1" for 127.0.0.1 at 2012-06-06 09:47:33 -0600
+Served asset /songs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-06 09:47:33 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-06 09:47:33 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-06 12:16:43 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (56.8ms)
+Completed 500 Internal Server Error in 357ms
+
+ActionView::Template::Error (undefined local variable or method `new_songs_path' for #<#<Class:0x99607a4>:0x982d698>):
+    1: <h1>The Musical Beat</h1>
+    2: <%= link_to "Create an account", new_user_path%>
+    3: <%= link_to "Find music details", new_songs_path%>
+  app/views/home/index.html.erb:3:in `_app_views_home_index_html_erb__475868030__641919548'
+
+
+  Rendered /home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.3ms)
+  Rendered /home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (18.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-06 12:17:56 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 189ms (Views: 188.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-06 12:17:57 -0600
+Served asset /jquery.js - 304 Not Modified (46ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-06-06 12:17:57 -0600
+Served asset /home.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2012-06-06 12:17:57 -0600
+Served asset /songs.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-06 12:17:57 -0600
+Served asset /application.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-06 12:17:57 -0600
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-06 12:17:57 -0600
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-06 12:17:57 -0600
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-06 12:17:57 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-06-06 12:17:57 -0600
+Served asset /home.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/songs.js?body=1" for 127.0.0.1 at 2012-06-06 12:17:57 -0600
+Served asset /songs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-06 12:17:57 -0600
+Served asset /users.js - 304 Not Modified (2ms)
+
+
+Started GET "/songs/new" for 127.0.0.1 at 2012-06-06 12:17:58 -0600
+Processing by SongsController#new as HTML
+ERROR: compiling _app_views_songs_new_html_erb___663165848__641494408 RAISED /home/uzziel/Escritorio/beat/app/views/songs/new.html.erb:57: syntax error, unexpected keyword_ensure, expecting $end
+Function body:           def _app_views_songs_new_html_erb___663165848__641494408(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "songs/new";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<h1>Search a song</h1>
+<form action="ejemplo.php">
+<div>
+<input type="text" name="nombre" maxlength="20" size="20" />
+Find by:
+<select>
+<option>Album</option>
+<option>Artist</option>
+<option>Song</option>
+</select>
+</div>
+</form>
+
+');@output_buffer.append=  form_for @song do |f| @output_buffer.safe_concat('
+');   if @song.errors.any? 
+@output_buffer.safe_concat('      <h2>Invalid petition, the errors were:</h2>
+      <ul>
+');           @song.errors.full_messages.each do |msg| 
+@output_buffer.safe_concat('            <li>');@output_buffer.append= ( msg );@output_buffer.safe_concat('</li>
+');           end 
+@output_buffer.safe_concat('      </ul>
+');   end 
+@output_buffer.safe_concat('
+  <p>
+    ');@output_buffer.append= ( f.label :petition );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    ');@output_buffer.append= ( f.text_field :petition );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    Find by:
+    <select>
+      <option>Album</option>
+      <option>Artist</option>
+      <option>Song</option>
+    </select>
+  </p>
+  
+  <p>
+    ');@output_buffer.append= ( f.submit );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('  </p>
+'); end 
+@output_buffer.safe_concat('
+
+  <p>
+');   artist_includes = Webservice::ArtistIncludes.new(
+  :aliases      => true,
+  :releases     => ['Album', 'Official'],
+  :artist_rels  => true,
+  :release_rels => true,
+  :track_rels   => true,
+  :label_rels   => true,
+  :url_rels     => true) 
+@output_buffer.safe_concat('
+'); query  = Webservice::Query.new 
+ id     = 'c0b2500e-0cef-4130-869d-732b23ed9df5' 
+ artist = query.get_artist_by_id(id, artist_includes) 
+@output_buffer.safe_concat('  </p>
+  ');@output_buffer.append= ( artist.name);@output_buffer.safe_concat('
+'); end ;@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/template.rb:285:in `module_eval'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/template.rb:285:in `compile'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/template.rb:233:in `compile!'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/template.rb:142:in `block in render'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/notifications.rb:125:in `instrument'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/template.rb:141:in `render'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/notifications.rb:123:in `instrument'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/renderer/renderer.rb:17:in `render'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/abstract_controller/rendering.rb:88:in `render'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/home/uzziel/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activerecord-3.2.3/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/abstract_controller/base.rb:167:in `process_action'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:414:in `_run__155571583__process_action__1022305759__callbacks'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/notifications.rb:123:in `instrument'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/params_wrapper.rb:205:in `process_action'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activerecord-3.2.3/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/abstract_controller/base.rb:121:in `process'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/abstract_controller/rendering.rb:45:in `process'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal.rb:203:in `dispatch'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal.rb:246:in `block in action'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/journey-1.0.3/lib/journey/router.rb:68:in `block in call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/journey-1.0.3/lib/journey/router.rb:56:in `each'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/journey-1.0.3/lib/journey/router.rb:56:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/routing/route_set.rb:600:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.4.1/lib/rack/etag.rb:23:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.4.1/lib/rack/conditionalget.rb:25:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:205:in `context'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:200:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/cookies.rb:338:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activerecord-3.2.3/lib/active_record/query_cache.rb:64:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activerecord-3.2.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:467:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:405:in `_run__14851265__call__915366711__callbacks'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/railties-3.2.3/lib/rails/rack/logger.rb:26:in `call_app'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/railties-3.2.3/lib/rails/rack/logger.rb:16:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.4.1/lib/rack/runtime.rb:17:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.4.1/lib/rack/lock.rb:15:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/static.rb:62:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/railties-3.2.3/lib/rails/engine.rb:479:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/railties-3.2.3/lib/rails/application.rb:220:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.4.1/lib/rack/content_length.rb:14:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/railties-3.2.3/lib/rails/rack/log_tailer.rb:14:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+/home/uzziel/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/home/uzziel/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/home/uzziel/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  Rendered songs/new.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 146ms
+
+ActionView::Template::Error (/home/uzziel/Escritorio/beat/app/views/songs/new.html.erb:57: syntax error, unexpected keyword_ensure, expecting $end):
+    54:   </p>
+    55:   <%= artist.name%>
+    56: <% end %>
+  actionpack (3.2.3) lib/action_view/template.rb:285:in `module_eval'
+  actionpack (3.2.3) lib/action_view/template.rb:285:in `compile'
+  actionpack (3.2.3) lib/action_view/template.rb:233:in `compile!'
+  actionpack (3.2.3) lib/action_view/template.rb:142:in `block in render'
+  activesupport (3.2.3) lib/active_support/notifications.rb:125:in `instrument'
+  actionpack (3.2.3) lib/action_view/template.rb:141:in `render'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+  actionpack (3.2.3) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.3) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:18:in `render'
+  actionpack (3.2.3) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.3) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.3) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.3) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.3) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.3) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /home/uzziel/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.3) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.3) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.3) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.3) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.3) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:414:in `_run__155571583__process_action__1022305759__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/params_wrapper.rb:205:in `process_action'
+  activerecord (3.2.3) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.3) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.3) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.3) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:467:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `_run__14851265__call__915366711__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/uzziel/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/uzziel/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/uzziel/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.3ms)
+  Rendered /home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-06 12:20:26 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 70ms (Views: 69.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-06 12:20:27 -0600
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-06 12:20:27 -0600
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-06-06 12:20:27 -0600
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-06 12:20:27 -0600
+Served asset /users.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-06 12:20:27 -0600
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2012-06-06 12:20:27 -0600
+Served asset /songs.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-06 12:20:27 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-06-06 12:20:27 -0600
+Served asset /home.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/songs.js?body=1" for 127.0.0.1 at 2012-06-06 12:20:27 -0600
+Served asset /songs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-06 12:20:27 -0600
+Served asset /application.js - 304 Not Modified (54ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-06 12:20:27 -0600
+Served asset /users.js - 304 Not Modified (2ms)
+
+
+Started GET "/songs/new" for 127.0.0.1 at 2012-06-06 12:20:28 -0600
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (15989.5ms)
+Completed 200 OK in 16079ms (Views: 16002.0ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-06 12:20:44 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-06-06 12:20:44 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2012-06-06 12:20:44 -0600
+Served asset /songs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-06 12:20:44 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-06 12:20:44 -0600
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-06 12:20:44 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-06-06 12:20:44 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-06 12:20:44 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/songs.js?body=1" for 127.0.0.1 at 2012-06-06 12:20:44 -0600
+Served asset /songs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-06 12:20:44 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-06 12:20:44 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/songs/new" for 127.0.0.1 at 2012-06-06 12:23:26 -0600
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (15859.8ms)
+Completed 200 OK in 16069ms (Views: 16000.6ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-06 12:23:42 -0600
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-06 12:23:42 -0600
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-06 12:23:42 -0600
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2012-06-06 12:23:42 -0600
+Served asset /songs.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-06 12:23:42 -0600
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-06-06 12:23:42 -0600
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-06 12:23:42 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-06-06 12:23:42 -0600
+Served asset /home.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/songs.js?body=1" for 127.0.0.1 at 2012-06-06 12:23:42 -0600
+Served asset /songs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-06 12:23:42 -0600
+Served asset /users.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-06 12:23:42 -0600
+Served asset /application.js - 304 Not Modified (12ms)
+
+
+Started GET "/songs/new" for 127.0.0.1 at 2012-06-06 12:25:06 -0600
+Processing by SongsController#new as HTML
+ERROR: compiling _app_views_songs_new_html_erb__777765877_90523980 RAISED /home/uzziel/Escritorio/beat/app/views/songs/new.html.erb:14: syntax error, unexpected tSTRING_BEG, expecting ')'
+...end= ( f.text_field :petition 'What do you need?');@output_b...
+...                               ^
+Function body:           def _app_views_songs_new_html_erb__777765877_90523980(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "songs/new";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<h1>Search a song</h1>
+
+');@output_buffer.append=  form_for @song do |f| @output_buffer.safe_concat('
+');   if @song.errors.any? 
+@output_buffer.safe_concat('      <h2>Invalid petition, the errors were:</h2>
+      <ul>
+');           @song.errors.full_messages.each do |msg| 
+@output_buffer.safe_concat('            <li>');@output_buffer.append= ( msg );@output_buffer.safe_concat('</li>
+');           end 
+@output_buffer.safe_concat('      </ul>
+');   end 
+@output_buffer.safe_concat('
+  <p>
+    ');@output_buffer.append= ( f.text_field :petition 'What do you need?');@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    Find by:
+    <select>
+      <option>Album</option>
+      <option>Artist</option>
+      <option>Song</option>
+    </select>
+    ');@output_buffer.append= ( f.submit 'search' );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('  </p>
+  
+
+    
+
+'); end 
+@output_buffer.safe_concat('
+
+  <p>
+');   artist_includes = Webservice::ArtistIncludes.new(
+  :aliases      => true,
+  :releases     => ['Album', 'Official'],
+  :artist_rels  => true,
+  :release_rels => true,
+  :track_rels   => true,
+  :label_rels   => true,
+  :url_rels     => true) 
+@output_buffer.safe_concat('
+'); query  = Webservice::Query.new 
+ id     = 'c0b2500e-0cef-4130-869d-732b23ed9df5' 
+ artist = query.get_artist_by_id(id, artist_includes) 
+@output_buffer.safe_concat('  </p>
+  ');@output_buffer.append= ( artist.name);@output_buffer.safe_concat('
+');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/template.rb:285:in `module_eval'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/template.rb:285:in `compile'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/template.rb:233:in `compile!'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/template.rb:142:in `block in render'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/notifications.rb:125:in `instrument'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/template.rb:141:in `render'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/notifications.rb:123:in `instrument'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/renderer/renderer.rb:17:in `render'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/abstract_controller/rendering.rb:88:in `render'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/home/uzziel/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activerecord-3.2.3/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/abstract_controller/base.rb:167:in `process_action'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:414:in `_run__893416440__process_action__511190468__callbacks'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/notifications.rb:123:in `instrument'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/params_wrapper.rb:205:in `process_action'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activerecord-3.2.3/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/abstract_controller/base.rb:121:in `process'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/abstract_controller/rendering.rb:45:in `process'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal.rb:203:in `dispatch'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal.rb:246:in `block in action'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/journey-1.0.3/lib/journey/router.rb:68:in `block in call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/journey-1.0.3/lib/journey/router.rb:56:in `each'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/journey-1.0.3/lib/journey/router.rb:56:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/routing/route_set.rb:600:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.4.1/lib/rack/etag.rb:23:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.4.1/lib/rack/conditionalget.rb:25:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:205:in `context'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:200:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/cookies.rb:338:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activerecord-3.2.3/lib/active_record/query_cache.rb:64:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activerecord-3.2.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:467:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:405:in `_run__410258597__call__35824880__callbacks'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/railties-3.2.3/lib/rails/rack/logger.rb:26:in `call_app'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/railties-3.2.3/lib/rails/rack/logger.rb:16:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.4.1/lib/rack/runtime.rb:17:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.4.1/lib/rack/lock.rb:15:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/static.rb:62:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/railties-3.2.3/lib/rails/engine.rb:479:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/railties-3.2.3/lib/rails/application.rb:220:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.4.1/lib/rack/content_length.rb:14:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/railties-3.2.3/lib/rails/rack/log_tailer.rb:14:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+/home/uzziel/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/home/uzziel/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/home/uzziel/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  Rendered songs/new.html.erb within layouts/application (9.2ms)
+Completed 500 Internal Server Error in 117ms
+
+ActionView::Template::Error (/home/uzziel/Escritorio/beat/app/views/songs/new.html.erb:14: syntax error, unexpected tSTRING_BEG, expecting ')'
+...end= ( f.text_field :petition 'What do you need?');@output_b...
+...                               ^):
+    11:   <% end %>
+    12: 
+    13:   <p>
+    14:     <%= f.text_field :petition 'What do you need?'%>
+    15:     Find by:
+    16:     <select>
+    17:       <option>Album</option>
+  actionpack (3.2.3) lib/action_view/template.rb:285:in `module_eval'
+  actionpack (3.2.3) lib/action_view/template.rb:285:in `compile'
+  actionpack (3.2.3) lib/action_view/template.rb:233:in `compile!'
+  actionpack (3.2.3) lib/action_view/template.rb:142:in `block in render'
+  activesupport (3.2.3) lib/active_support/notifications.rb:125:in `instrument'
+  actionpack (3.2.3) lib/action_view/template.rb:141:in `render'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+  actionpack (3.2.3) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.3) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:18:in `render'
+  actionpack (3.2.3) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.3) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.3) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.3) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.3) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.3) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /home/uzziel/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.3) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.3) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.3) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.3) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.3) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:414:in `_run__893416440__process_action__511190468__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/params_wrapper.rb:205:in `process_action'
+  activerecord (3.2.3) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.3) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.3) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.3) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:467:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `_run__410258597__call__35824880__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/uzziel/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/uzziel/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/uzziel/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.2ms)
+  Rendered /home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (18.4ms)
+
+
+Started GET "/songs/new" for 127.0.0.1 at 2012-06-06 12:25:29 -0600
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (37.3ms)
+Completed 500 Internal Server Error in 146ms
+
+ActionView::Template::Error (undefined method `merge' for "What do you need?":String):
+    11:   <% end %>
+    12: 
+    13:   <p>
+    14:     <%= f.text_field :petition, 'What do you need?'%>
+    15:     Find by:
+    16:     <select>
+    17:       <option>Album</option>
+  app/views/songs/new.html.erb:14:in `block in _app_views_songs_new_html_erb___49132953_81510700'
+  app/views/songs/new.html.erb:3:in `_app_views_songs_new_html_erb___49132953_81510700'
+
+
+  Rendered /home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.5ms)
+  Rendered /home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.3ms)
+
+
+Started GET "/songs/new" for 127.0.0.1 at 2012-06-06 12:33:04 -0600
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (16696.5ms)
+Completed 200 OK in 16908ms (Views: 16839.2ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-06 12:33:21 -0600
+Served asset /application.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-06-06 12:33:21 -0600
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2012-06-06 12:33:21 -0600
+Served asset /songs.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-06 12:33:21 -0600
+Served asset /jquery.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-06 12:33:21 -0600
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-06 12:33:21 -0600
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-06 12:33:21 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-06-06 12:33:21 -0600
+Served asset /home.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/songs.js?body=1" for 127.0.0.1 at 2012-06-06 12:33:21 -0600
+Served asset /songs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-06 12:33:21 -0600
+Served asset /users.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-06 12:33:21 -0600
+Served asset /application.js - 304 Not Modified (17ms)
+
+
+Started POST "/songs" for 127.0.0.1 at 2012-06-06 12:43:09 -0600
+Processing by SongsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wWoe8lDYDFkwNpMrAyua7MZtqVKwODa98BZaS8ntu/w=", "song"=>{"petition"=>"lala"}, "commit"=>"search"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (178.8ms)[0m  INSERT INTO "songs" ("album", "artist", "created_at", "image", "length", "number", "petition", "title", "updated_at", "user_id", "year") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["album", nil], ["artist", nil], ["created_at", Wed, 06 Jun 2012 18:43:09 UTC +00:00], ["image", nil], ["length", nil], ["number", nil], ["petition", "lala"], ["title", nil], ["updated_at", Wed, 06 Jun 2012 18:43:09 UTC +00:00], ["user_id", nil], ["year", nil]]
+  [1m[36m (203.2ms)[0m  [1mcommit transaction[0m
+  Rendered songs/create.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 400ms (Views: 13.8ms | ActiveRecord: 382.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-06 12:43:09 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-06-06 12:43:09 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2012-06-06 12:43:09 -0600
+Served asset /songs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-06 12:43:09 -0600
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-06 12:43:09 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-06 12:43:09 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-06 12:43:09 -0600
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-06-06 12:43:09 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/songs.js?body=1" for 127.0.0.1 at 2012-06-06 12:43:09 -0600
+Served asset /songs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-06 12:43:09 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-06 12:43:09 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-06 12:53:55 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (28.4ms)
+Completed 200 OK in 68ms (Views: 67.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-06 12:53:56 -0600
+Served asset /application.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-06-06 12:53:56 -0600
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-06 12:53:56 -0600
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2012-06-06 12:53:56 -0600
+Served asset /songs.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-06 12:53:56 -0600
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-06 12:53:56 -0600
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-06 12:53:56 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-06-06 12:53:56 -0600
+Served asset /home.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/songs.js?body=1" for 127.0.0.1 at 2012-06-06 12:53:56 -0600
+Served asset /songs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-06 12:53:56 -0600
+Served asset /application.js - 304 Not Modified (43ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-06 12:53:56 -0600
+Served asset /users.js - 304 Not Modified (2ms)
+
+
+Started GET "/songs/new" for 127.0.0.1 at 2012-06-06 12:53:58 -0600
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (46.5ms)
+Completed 500 Internal Server Error in 119ms
+
+ActionView::Template::Error (undefined local variable or method `x' for #<#<Class:0xb3f04e6c>:0xb3ba2cb0>):
+    11:   <% end %>
+    12: 
+    13:   <p>
+    14:     <%x%>
+    15:     <%= f.text_field :petition%>
+    16:     Find by:
+    17:     <%= f.select ['Song','Artist','Album'] %>
+  app/views/songs/new.html.erb:14:in `block in _app_views_songs_new_html_erb__295871211__639823538'
+  app/views/songs/new.html.erb:3:in `_app_views_songs_new_html_erb__295871211__639823538'
+
+
+  Rendered /home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.5ms)
+  Rendered /home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.7ms)
+
+
+Started GET "/songs/new" for 127.0.0.1 at 2012-06-06 12:56:16 -0600
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (39.1ms)
+Completed 500 Internal Server Error in 147ms
+
+ActionView::Template::Error (wrong number of arguments (1 for 2)):
+    14:     
+    15:     <%= f.text_field :petition%>
+    16:     Find by:
+    17:     <%=f.select ['Song','Artist','Album'] %>
+    18:     <%= f.submit 'search' %>
+    19:   </p>
+    20:   
+  app/views/songs/new.html.erb:17:in `block in _app_views_songs_new_html_erb___142405156_94045000'
+  app/views/songs/new.html.erb:3:in `_app_views_songs_new_html_erb___142405156_94045000'
+
+
+  Rendered /home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.5ms)
+  Rendered /home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.6ms)
+
+
+Started GET "/songs/new" for 127.0.0.1 at 2012-06-06 12:57:27 -0600
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (15700.5ms)
+Completed 200 OK in 15911ms (Views: 15842.6ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-06 12:57:44 -0600
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-06 12:57:44 -0600
+Served asset /scaffolds.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-06-06 12:57:44 -0600
+Served asset /home.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-06 12:57:44 -0600
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2012-06-06 12:57:44 -0600
+Served asset /songs.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-06 12:57:44 -0600
+Served asset /jquery.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-06-06 12:57:44 -0600
+Served asset /home.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-06 12:57:44 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/songs.js?body=1" for 127.0.0.1 at 2012-06-06 12:57:44 -0600
+Served asset /songs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-06 12:57:44 -0600
+Served asset /users.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-06 12:57:44 -0600
+Served asset /application.js - 304 Not Modified (18ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-06 15:09:38 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (32.2ms)
+Completed 200 OK in 248ms (Views: 247.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-06 15:09:40 -0600
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-06-06 15:09:40 -0600
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-06 15:09:40 -0600
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2012-06-06 15:09:40 -0600
+Served asset /songs.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-06 15:09:40 -0600
+Served asset /users.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-06 15:09:40 -0600
+Served asset /jquery.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/songs.js?body=1" for 127.0.0.1 at 2012-06-06 15:09:40 -0600
+Served asset /songs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-06 15:09:40 -0600
+Served asset /users.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-06-06 15:09:40 -0600
+Served asset /home.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-06 15:09:40 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-06 15:09:40 -0600
+Served asset /application.js - 304 Not Modified (50ms)
+
+
+Started GET "/songs/new" for 127.0.0.1 at 2012-06-06 15:09:41 -0600
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (71.1ms)
+Completed 500 Internal Server Error in 187ms
+
+ActionView::Template::Error (undefined method `x' for #<Song:0xb4103b28>):
+    14:     
+    15:     <%= f.text_field :petition%>
+    16:     Find by:
+    17:     <%=f.select :x, ['Song','Artist','Album'] %>
+    18:     <%= f.submit 'search' %>
+    19:   </p>
+    20:   
+  app/views/songs/new.html.erb:17:in `block in _app_views_songs_new_html_erb___219619443__637976008'
+  app/views/songs/new.html.erb:3:in `_app_views_songs_new_html_erb___219619443__637976008'
+
+
+  Rendered /home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.9ms)
+  Rendered /home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.9ms)
+
+
+Started GET "/songs/new" for 127.0.0.1 at 2012-06-06 15:10:46 -0600
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (40.8ms)
+Completed 500 Internal Server Error in 153ms
+
+ActionView::Template::Error (undefined method `x' for #<Song:0xb3782e0>):
+    14:     <%x=0%>
+    15:     <%= f.text_field :petition%>
+    16:     Find by:
+    17:     <%=f.select :x, ['Song','Artist','Album'] %>
+    18:     <%= f.submit 'search' %>
+    19:   </p>
+    20:   
+  app/views/songs/new.html.erb:17:in `block in _app_views_songs_new_html_erb__579622433_94259360'
+  app/views/songs/new.html.erb:3:in `_app_views_songs_new_html_erb__579622433_94259360'
+
+
+  Rendered /home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.8ms)
+  Rendered /home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.1ms)
+
+
+Started GET "/songs/new" for 127.0.0.1 at 2012-06-06 15:21:04 -0600
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (70.0ms)
+Completed 500 Internal Server Error in 184ms
+
+ActionView::Template::Error (undefined method `petition' for #<ActionView::Helpers::FormBuilder:0x8cbeec4>):
+    16:     Find by:
+    17:     <%=f.select :petition, ['Song','Artist','Album'] %>
+    18:     <%= f.submit 'search' %>
+    19:     <%= f.petition%>
+    20:   </p>
+    21:   
+    22: 
+  app/views/songs/new.html.erb:19:in `block in _app_views_songs_new_html_erb___84696918_79490020'
+  app/views/songs/new.html.erb:3:in `_app_views_songs_new_html_erb___84696918_79490020'
+
+
+  Rendered /home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.3ms)
+  Rendered /home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+  Rendered /home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.4ms)
+
+
+Started GET "/songs/new" for 127.0.0.1 at 2012-06-06 15:21:43 -0600
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (69.3ms)
+Completed 500 Internal Server Error in 182ms
+
+ActionView::Template::Error (undefined method `params' for #<ActionView::Helpers::FormBuilder:0x96ff3fc>):
+    16:     Find by:
+    17:     <%=f.select :petition, ['Song','Artist','Album'] %>
+    18:     <%= f.submit 'search' %>
+    19:     <%= f.params[:petition]%>
+    20:   </p>
+    21:   
+    22: 
+  app/views/songs/new.html.erb:19:in `block in _app_views_songs_new_html_erb__417033593_84158180'
+  app/views/songs/new.html.erb:3:in `_app_views_songs_new_html_erb__417033593_84158180'
+
+
+  Rendered /home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.3ms)
+  Rendered /home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.7ms)
+
+
+Started GET "/songs/new" for 127.0.0.1 at 2012-06-06 15:22:22 -0600
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (16544.8ms)
+Completed 200 OK in 16689ms (Views: 16618.4ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-06 15:22:39 -0600
+Served asset /application.css - 304 Not Modified (119ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-06-06 15:22:39 -0600
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-06 15:22:39 -0600
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2012-06-06 15:22:39 -0600
+Served asset /songs.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-06 15:22:39 -0600
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-06 15:22:39 -0600
+Served asset /jquery.js - 304 Not Modified (32ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-06 15:22:39 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-06-06 15:22:39 -0600
+Served asset /home.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/songs.js?body=1" for 127.0.0.1 at 2012-06-06 15:22:39 -0600
+Served asset /songs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-06 15:22:39 -0600
+Served asset /users.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-06 15:22:39 -0600
+Served asset /application.js - 304 Not Modified (18ms)
+
+
+Started POST "/songs" for 127.0.0.1 at 2012-06-06 15:22:57 -0600
+Processing by SongsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pkcWeeGaiyIjp74vJEf81gXeZuttS/+HjMYo5iGFo5Q=", "song"=>{"petition"=>"Song"}, "commit"=>"search"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (90.0ms)[0m  INSERT INTO "songs" ("album", "artist", "created_at", "image", "length", "number", "petition", "title", "updated_at", "user_id", "year") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["album", nil], ["artist", nil], ["created_at", Wed, 06 Jun 2012 21:22:57 UTC +00:00], ["image", nil], ["length", nil], ["number", nil], ["petition", "Song"], ["title", nil], ["updated_at", Wed, 06 Jun 2012 21:22:57 UTC +00:00], ["user_id", nil], ["year", nil]]
+  [1m[36m (240.1ms)[0m  [1mcommit transaction[0m
+  Rendered songs/create.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 400ms (Views: 64.9ms | ActiveRecord: 330.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-06 15:22:58 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-06-06 15:22:58 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-06 15:22:58 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-06 15:22:58 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-06 15:22:58 -0600
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2012-06-06 15:22:58 -0600
+Served asset /songs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-06 15:22:58 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-06-06 15:22:58 -0600
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/songs.js?body=1" for 127.0.0.1 at 2012-06-06 15:22:58 -0600
+Served asset /songs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-06 15:22:58 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-06 15:22:58 -0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/songs/new" for 127.0.0.1 at 2012-06-06 15:25:19 -0600
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (15179.4ms)
+Completed 200 OK in 15321ms (Views: 15249.5ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-06 15:25:35 -0600
+Served asset /application.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-06-06 15:25:35 -0600
+Served asset /home.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-06 15:25:35 -0600
+Served asset /jquery.js - 304 Not Modified (89ms)
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2012-06-06 15:25:35 -0600
+Served asset /songs.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-06 15:25:35 -0600
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-06 15:25:35 -0600
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-06 15:25:35 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/songs.js?body=1" for 127.0.0.1 at 2012-06-06 15:25:35 -0600
+Served asset /songs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-06-06 15:25:35 -0600
+Served asset /home.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-06 15:25:35 -0600
+Served asset /users.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-06 15:25:35 -0600
+Served asset /application.js - 304 Not Modified (13ms)
+
+
+Started POST "/songs" for 127.0.0.1 at 2012-06-06 15:25:44 -0600
+Processing by SongsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pkcWeeGaiyIjp74vJEf81gXeZuttS/+HjMYo5iGFo5Q=", "song"=>{"petition"=>"Song"}, "commit"=>"search"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (9.2ms)[0m  INSERT INTO "songs" ("album", "artist", "created_at", "image", "length", "number", "petition", "title", "updated_at", "user_id", "year") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["album", nil], ["artist", nil], ["created_at", Wed, 06 Jun 2012 21:25:44 UTC +00:00], ["image", nil], ["length", nil], ["number", nil], ["petition", "Song"], ["title", nil], ["updated_at", Wed, 06 Jun 2012 21:25:44 UTC +00:00], ["user_id", nil], ["year", nil]]
+  [1m[36m (238.5ms)[0m  [1mcommit transaction[0m
+ERROR: compiling _app_views_songs_create_html_erb___596615324__636722358 RAISED /home/uzziel/Escritorio/beat/app/views/songs/create.html.erb:3: syntax error, unexpected ':', expecting ')'
+');@output_buffer.append= ( @song :petition );@output_buffer.to_s
+                                   ^
+Function body:           def _app_views_songs_create_html_erb___596615324__636722358(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "songs/create";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<h1>Songs#create</h1>
+<p>Find me in app/views/songs/create.html.erb</p>
+');@output_buffer.append= ( @song :petition );@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/template.rb:285:in `module_eval'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/template.rb:285:in `compile'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/template.rb:233:in `compile!'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/template.rb:142:in `block in render'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/notifications.rb:125:in `instrument'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/template.rb:141:in `render'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/notifications.rb:123:in `instrument'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_view/renderer/renderer.rb:17:in `render'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/abstract_controller/rendering.rb:88:in `render'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/home/uzziel/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activerecord-3.2.3/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/abstract_controller/base.rb:167:in `process_action'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:414:in `_run__410162730__process_action__999367338__callbacks'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/notifications.rb:123:in `instrument'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/params_wrapper.rb:205:in `process_action'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activerecord-3.2.3/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/abstract_controller/base.rb:121:in `process'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/abstract_controller/rendering.rb:45:in `process'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal.rb:203:in `dispatch'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_controller/metal.rb:246:in `block in action'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/journey-1.0.3/lib/journey/router.rb:68:in `block in call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/journey-1.0.3/lib/journey/router.rb:56:in `each'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/journey-1.0.3/lib/journey/router.rb:56:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/routing/route_set.rb:600:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.4.1/lib/rack/etag.rb:23:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.4.1/lib/rack/conditionalget.rb:35:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:205:in `context'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:200:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/cookies.rb:338:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activerecord-3.2.3/lib/active_record/query_cache.rb:64:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activerecord-3.2.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:467:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:405:in `_run__799320339__call__620260492__callbacks'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/railties-3.2.3/lib/rails/rack/logger.rb:26:in `call_app'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/railties-3.2.3/lib/rails/rack/logger.rb:16:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.4.1/lib/rack/runtime.rb:17:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.3/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.4.1/lib/rack/lock.rb:15:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/static.rb:62:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/railties-3.2.3/lib/rails/engine.rb:479:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/railties-3.2.3/lib/rails/application.rb:220:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.4.1/lib/rack/content_length.rb:14:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/railties-3.2.3/lib/rails/rack/log_tailer.rb:14:in `call'
+/home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+/home/uzziel/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/home/uzziel/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/home/uzziel/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  Rendered songs/create.html.erb within layouts/application (61.1ms)
+Completed 500 Internal Server Error in 316ms
+
+ActionView::Template::Error (/home/uzziel/Escritorio/beat/app/views/songs/create.html.erb:3: syntax error, unexpected ':', expecting ')'
+');@output_buffer.append= ( @song :petition );@output_buffer.to_s
+                                   ^):
+    1: <h1>Songs#create</h1>
+    2: <p>Find me in app/views/songs/create.html.erb</p>
+    3: <%= @song :petition %>
+  actionpack (3.2.3) lib/action_view/template.rb:285:in `module_eval'
+  actionpack (3.2.3) lib/action_view/template.rb:285:in `compile'
+  actionpack (3.2.3) lib/action_view/template.rb:233:in `compile!'
+  actionpack (3.2.3) lib/action_view/template.rb:142:in `block in render'
+  activesupport (3.2.3) lib/active_support/notifications.rb:125:in `instrument'
+  actionpack (3.2.3) lib/action_view/template.rb:141:in `render'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+  actionpack (3.2.3) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.3) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:18:in `render'
+  actionpack (3.2.3) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.3) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.3) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.3) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.3) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.3) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /home/uzziel/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.3) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.3) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.3) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.3) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.3) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:414:in `_run__410162730__process_action__999367338__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/params_wrapper.rb:205:in `process_action'
+  activerecord (3.2.3) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.3) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.3) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:35:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.3) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:467:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `_run__799320339__call__620260492__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/uzziel/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/uzziel/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/uzziel/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.3ms)
+  Rendered /home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /home/uzziel/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.6ms)
+
+
+Started GET "/songs/new" for 127.0.0.1 at 2012-06-06 15:27:06 -0600
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (15483.7ms)
+Completed 200 OK in 15668ms (Views: 15596.0ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-06-06 15:27:22 -0600
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-06 15:27:22 -0600
+Served asset /scaffolds.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2012-06-06 15:27:22 -0600
+Served asset /songs.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-06 15:27:22 -0600
+Served asset /users.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-06 15:27:22 -0600
+Served asset /jquery.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-06 15:27:22 -0600
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-06 15:27:22 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-06-06 15:27:22 -0600
+Served asset /home.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/songs.js?body=1" for 127.0.0.1 at 2012-06-06 15:27:22 -0600
+Served asset /songs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-06 15:27:22 -0600
+Served asset /users.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-06 15:27:22 -0600
+Served asset /application.js - 304 Not Modified (14ms)
+
+
+Started GET "/songs/new" for 127.0.0.1 at 2012-06-06 15:33:05 -0600
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (15205.3ms)
+Completed 200 OK in 15349ms (Views: 15275.5ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-06 15:33:21 -0600
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-06 15:33:21 -0600
+Served asset /users.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-06-06 15:33:21 -0600
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-06 15:33:21 -0600
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2012-06-06 15:33:21 -0600
+Served asset /songs.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-06 15:33:21 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-06 15:33:21 -0600
+Served asset /jquery.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-06 15:33:21 -0600
+Served asset /users.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-06-06 15:33:21 -0600
+Served asset /home.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/songs.js?body=1" for 127.0.0.1 at 2012-06-06 15:33:21 -0600
+Served asset /songs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-06 15:33:21 -0600
+Served asset /application.js - 304 Not Modified (83ms)
+
+
+Started POST "/songs" for 127.0.0.1 at 2012-06-06 15:33:31 -0600
+Processing by SongsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pkcWeeGaiyIjp74vJEf81gXeZuttS/+HjMYo5iGFo5Q=", "song"=>{"petition"=>"Artist"}, "commit"=>"search"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (6.9ms)[0m  INSERT INTO "songs" ("album", "artist", "created_at", "image", "length", "number", "petition", "title", "updated_at", "user_id", "year") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["album", nil], ["artist", nil], ["created_at", Wed, 06 Jun 2012 21:33:31 UTC +00:00], ["image", nil], ["length", nil], ["number", nil], ["petition", "Artist"], ["title", nil], ["updated_at", Wed, 06 Jun 2012 21:33:31 UTC +00:00], ["user_id", nil], ["year", nil]]
+  [1m[36m (297.3ms)[0m  [1mcommit transaction[0m
+  Rendered songs/create.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 321ms (Views: 11.5ms | ActiveRecord: 304.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-06 15:33:31 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-06 15:33:31 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2012-06-06 15:33:31 -0600
+Served asset /songs.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-06 15:33:31 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-06-06 15:33:31 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-06 15:33:31 -0600
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-06 15:33:31 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-06-06 15:33:31 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/songs.js?body=1" for 127.0.0.1 at 2012-06-06 15:33:31 -0600
+Served asset /songs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-06 15:33:31 -0600
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-06 15:33:31 -0600
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started POST "/songs" for 127.0.0.1 at 2012-06-06 15:33:50 -0600
+Processing by SongsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pkcWeeGaiyIjp74vJEf81gXeZuttS/+HjMYo5iGFo5Q=", "song"=>{"petition"=>"Artist"}, "commit"=>"search"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "songs" ("album", "artist", "created_at", "image", "length", "number", "petition", "title", "updated_at", "user_id", "year") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["album", nil], ["artist", nil], ["created_at", Wed, 06 Jun 2012 21:33:50 UTC +00:00], ["image", nil], ["length", nil], ["number", nil], ["petition", "Artist"], ["title", nil], ["updated_at", Wed, 06 Jun 2012 21:33:50 UTC +00:00], ["user_id", nil], ["year", nil]]
+  [1m[35m (271.4ms)[0m  commit transaction
+  Rendered songs/create.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 286ms (Views: 10.8ms | ActiveRecord: 272.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-06 15:33:51 -0600
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-06 15:33:51 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-06 15:33:51 -0600
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-06-06 15:33:51 -0600
+Served asset /home.css - 304 Not Modified (56ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-06 15:33:51 -0600
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2012-06-06 15:33:51 -0600
+Served asset /songs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-06 15:33:51 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-06-06 15:33:51 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-06 15:33:51 -0600
+Served asset /users.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/songs.js?body=1" for 127.0.0.1 at 2012-06-06 15:33:51 -0600
+Served asset /songs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-06 15:33:51 -0600
+Served asset /application.js - 304 Not Modified (3ms)
